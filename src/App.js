@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
+import Chat from "./components/Chat";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 
@@ -13,8 +14,7 @@ function App() {
 
           <Switch>
             <Route path="/room/:roomId">
-              {/* <Chat /> */}
-              <h1>Chat Screen</h1>
+              <Chat />
             </Route>
             <Route path="/">
               <h1>Welcome to Slack App</h1>
