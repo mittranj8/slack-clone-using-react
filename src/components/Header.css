@@ -21,12 +21,12 @@
 
 .header_search {
   flex: 0.4;
-  background-color: #421f44;
+  background-color: #5a189a;
   text-align: center;
   display: flex;
-  padding: 0 50px;
-  color: grey;
-  border: 1px grey solid;
+  padding: 2px 50px;
+  color: #c77dff;
+  border: 1px #7b2cbf solid;
   border-radius: 6px;
 }
 
@@ -36,6 +36,15 @@
   text-align: center;
   min-width: 35vw;
   color: white;
+  font-size: medium;
+}
+
+.header_search > input:focus::placeholder {
+  color: #5a189a;
+}
+
+::placeholder {
+  color: #c77dff;
 }
 
 .header_search > input:focus {

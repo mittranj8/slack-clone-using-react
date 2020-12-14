@@ -4,11 +4,12 @@
   font-size: 12px;
   padding-left: 2px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .sidebarOption:hover {
   opacity: 0.9;
-  background-color: #340e36;
+  background-color: #7b2cbf;
 }
 
 .sidebarOption_icon {

@@ -1,21 +1,21 @@
 .sidebar {
   color: white;
   background-color: var(--slack-color);
-  border-top: 1px solid #49274b;
+  border-top: 1px solid #3c096c;
   max-width: 260px;
 }
 
 .sidebar > hr {
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 1px solid #49274b;
+  border: 1px solid #7b2cbf;
 }
 
 .sidebar_header {
   display: flex;
   /* margin-top: 10px;
   margin-bottom: 10px; */
-  border: 1px solid #49274b;
+  border: 1px solid #3c096c;
   padding-bottom: 10px;
   padding: 13px;
 }
@@ -46,7 +46,7 @@
 
 .sidebar_header > .MuiSvgIcon-root {
   padding: 8px;
-  color: #49274b;
+  color: #7b2cbf;
   font-size: 18px;
   background-color: white;
   border-radius: 999px;
