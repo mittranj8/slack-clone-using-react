@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import db from "../firebase";
 import "./Chat.css";
+import ChatInput from "./ChatInput";
 import Message from "./Message";
 
 const Chat = () => {
@@ -52,6 +53,8 @@ const Chat = () => {
           />
         ))}
       </div>
+
+      <ChatInput channelName={roomDetails?.name} channelId={roomId} />
     </div>
   );
 };
