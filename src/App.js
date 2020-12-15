@@ -8,7 +8,7 @@ import { useStateValue } from "./StateProvider";
 
 function App() {
   // const [user, setUser] = useState(null);
-  const [{user}, dispatch] = useStateValue();
+  const [{ user }, dispatch] = useStateValue();
 
   return (
     <div className="app">
@@ -26,7 +26,9 @@ function App() {
                   <Chat />
                 </Route>
                 <Route path="/">
-                  <h1>Welcome to Slack App</h1>
+                  <h1 className="app_banner">
+                    Welcome to Mittranj's Slack Space
+                  </h1>
                 </Route>
               </Switch>
             </div>

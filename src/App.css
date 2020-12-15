@@ -7,3 +7,11 @@ body {
   display: flex;
   height: 100vh;
 }
+
+.app_banner {
+  padding: 20px;
+  flex: 0.7;
+  text-align: center;
+  color: #240046;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
