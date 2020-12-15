@@ -4,6 +4,16 @@
   background-color: var(--slack-color);
   border-top: 1px solid #3c096c;
   max-width: 260px;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar_channels {
+  height: 80%;
 }
 
 .sidebar > hr {
@@ -14,8 +24,6 @@
 
 .sidebar_header {
   display: flex;
-  /* margin-top: 10px;
-  margin-bottom: 10px; */
   border: 1px solid #3c096c;
   padding-bottom: 10px;
   padding: 13px;
