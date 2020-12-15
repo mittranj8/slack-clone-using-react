@@ -25,3 +25,8 @@
   background-color: #3c096c !important;
   color: white;
 }
+
+.login_container > p {
+  color: white;
+  font-weight: 500;
+}

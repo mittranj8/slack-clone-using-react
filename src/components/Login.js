@@ -29,7 +29,7 @@ const Login = () => {
           alt="slack-logo"
         />
         <h1>Sign in to Mittranj's Slack Space</h1>
-        <p>slack-clone-99.firebase.app</p>
+        <p>slack-clone-react-8364c.web.app</p>
         <Button onClick={signIn}>Sign in with Google</Button>
       </div>
     </div>
