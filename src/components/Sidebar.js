@@ -14,11 +14,13 @@ import {
 } from "@material-ui/icons";
 import React, { useEffect, useState } from "react";
 import db from "../firebase";
+import { useStateValue } from "../StateProvider";
 import "./Sidebar.css";
 import SidebarOption from "./SidebarOption";
 
 const Sidebar = () => {
   const [channels, setChannels] = useState([]);
+  const [{ user }] = useStateValue();
 
   useEffect(() => {
     db.collection("rooms").onSnapshot((snapshot) =>
@@ -38,7 +40,7 @@ const Sidebar = () => {
           <h2>Mittranj's Slack Space</h2>
           <h3>
             <FiberManualRecord />
-            Mittranj Pansuriya
+            {user?.displayName}
           </h3>
         </div>
         <Create />
